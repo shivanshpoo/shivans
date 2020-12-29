@@ -1,0 +1,64 @@
+2020-12-09 03:32:50,509 192582 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-plugin-api:jar:2.0.9 is missing, no dependency information available
+2020-12-09 03:32:50,685 192758 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-artifact:jar:2.0.9 is missing, no dependency information available
+2020-12-09 03:32:50,686 192759 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-core:jar:2.0.9 is missing, no dependency information available
+2020-12-09 03:32:50,687 192760 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-toolchain:jar:1.0 is missing, no dependency information available
+2020-12-09 03:32:50,688 192761 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven.shared:maven-shared-utils:jar:0.1 is missing, no dependency information available
+2020-12-09 03:32:50,689 192762 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven.shared:maven-shared-incremental:jar:1.1 is missing, no dependency information available
+2020-12-09 03:32:50,689 192762 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-compiler-api:jar:2.2 is missing, no dependency information available
+2020-12-09 03:32:50,690 192763 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-compiler-manager:jar:2.2 is missing, no dependency information available
+2020-12-09 03:32:50,691 192764 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-compiler-javac:jar:2.2 is missing, no dependency information available
+2020-12-09 03:32:50,691 192764 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-container-default:jar:1.5.5 is missing, no dependency information available
+2020-12-09 03:38:34,837 536910 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-plugin-api:jar:2.0.9 is missing, no dependency information available
+2020-12-09 03:38:34,842 536915 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-artifact:jar:2.0.9 is missing, no dependency information available
+2020-12-09 03:38:34,843 536916 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-core:jar:2.0.9 is missing, no dependency information available
+2020-12-09 03:38:34,844 536917 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven:maven-toolchain:jar:1.0 is missing, no dependency information available
+2020-12-09 03:38:34,845 536918 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven.shared:maven-shared-utils:jar:0.1 is missing, no dependency information available
+2020-12-09 03:38:34,845 536918 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.apache.maven.shared:maven-shared-incremental:jar:1.1 is missing, no dependency information available
+2020-12-09 03:38:34,846 536919 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-compiler-api:jar:2.2 is missing, no dependency information available
+2020-12-09 03:38:34,847 536920 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-compiler-manager:jar:2.2 is missing, no dependency information available
+2020-12-09 03:38:34,847 536920 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-compiler-javac:jar:2.2 is missing, no dependency information available
+2020-12-09 03:38:34,848 536921 [g Maven Project] WARN  nternal.embedder.EclipseLogger  - The POM for org.codehaus.plexus:plexus-container-default:jar:1.5.5 is missing, no dependency information available
+2020-12-17 12:44:59,887 339    [en Dependencies] ERROR stry.ProjectRegistryRefreshJob  - Resource '/project0/pom.xml' does not exist.
+org.eclipse.core.internal.resources.ResourceException(/project0/pom.xml)[368]: java.lang.Exception: Resource '/project0/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:792)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:250)
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:244)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacades(ProjectRegistryManager.java:713)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:428)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:361)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$4(ProjectRegistryRefreshJob.java:141)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1371)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:140)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-12-28 01:15:07,022 216636452 [ndex::zip:0.0.0] WARN  menders.models.ModelRepository  - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303)
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193)
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168)
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364)
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430)
+	... 8 more
